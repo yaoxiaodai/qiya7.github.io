@@ -51,7 +51,7 @@ use 1
 
     19) perl/shellcode_inject/flat.py
 
->use 17
+use 17
 ```
 
 ```
@@ -74,7 +74,7 @@ UTCCHECK 设置为Y表示 只在运行环境的系统使用UTC时间时，才会
 ```
 - set 都是可选的，都为了绕过，不选也行
 
-- generate(生成)
+- `generate`(生成)
 
 - 复制CS生成的payload.txt内容，到这个位置
 ![](https://upload-images.jianshu.io/upload_images/15634342-8d4ac6f9c786149a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
